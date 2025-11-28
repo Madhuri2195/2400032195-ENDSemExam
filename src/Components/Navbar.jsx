@@ -1,7 +1,15 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
-    <nav style={{background:"#b30000", padding:"15px", color:"white", textAlign:"center"}}>
-      <h2>KL University Student Portal</h2>
+    <nav className="navbar">
+      <h2>KL University</h2>
+      <div>
+        <Link to="/">Home</Link>
+        <Link to="/login">Login</Link>
+        <Link to="/register">Register</Link>
+        <Link to="/profile">Profile</Link>
+      </div>
     </nav>
   );
 }
