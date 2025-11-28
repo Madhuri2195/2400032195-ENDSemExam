@@ -1,8 +1,14 @@
 function Dashboard() {
   return (
-    <div>
+    <div className="page">
       <h1>Student Dashboard</h1>
-      <p>Welcome to your dashboard.</p>
+
+      <div className="cards">
+        <div className="card">Attendance</div>
+        <div className="card">Results</div>
+        <div className="card">Materials</div>
+        <div className="card">Profile</div>
+      </div>
     </div>
   );
 }
