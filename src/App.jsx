@@ -1,11 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
 import Dashboard from "./Components/Dashboard";
-
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import Profile from "./Pages/Profile";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
